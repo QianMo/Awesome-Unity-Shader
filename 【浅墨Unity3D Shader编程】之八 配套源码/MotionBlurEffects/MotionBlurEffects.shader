@@ -92,7 +92,7 @@ Shader "浅墨Shader编程/Volume8/运动模糊特效标准版"
 				//【5】将Value乘以一个系数
 				_Value *= 0.085;
 				//【6】设置坐标缩放比例的值
-				float scale = 1 + (float(0 * _Value));
+				float scale = 1;
 
 				//【7】进行纹理颜色的迭代
 				for (int j = 1; j < _IterationNumber; ++j)

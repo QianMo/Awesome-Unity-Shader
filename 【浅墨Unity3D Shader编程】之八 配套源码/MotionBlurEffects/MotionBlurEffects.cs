@@ -21,14 +21,11 @@ public class MotionBlurEffects : MonoBehaviour
     [Range(-2f, 2f)]
     public float OffsetY = 0.5f;
 
-    [Range(0f, 10f)]
-    private float blurWidth = 1f;
 
     public static float ChangeValue;
     public static float ChangeValue2;
     public static float ChangeValue3;
     public static float ChangeValue4;
-    public static float ChangeValue5;
     #endregion
 
 
@@ -57,8 +54,7 @@ public class MotionBlurEffects : MonoBehaviour
         ChangeValue = Intensity;
         ChangeValue2 = OffsetX;
         ChangeValue3 = OffsetY;
-        ChangeValue4 = blurWidth;
-        ChangeValue5 = IterationNumber;
+        ChangeValue4 = IterationNumber;
 
         //找到当前的Shader文件
         CurShader = Shader.Find("浅墨Shader编程/Volume8/运动模糊特效标准版");
@@ -84,7 +80,6 @@ public class MotionBlurEffects : MonoBehaviour
             material.SetFloat("_Value", Intensity);
             material.SetFloat("_Value2", OffsetX);
             material.SetFloat("_Value3", OffsetY);
-            material.SetFloat("_Value4", blurWidth);
             material.SetVector("_ScreenResolution", new Vector4(sourceTexture.width, sourceTexture.height, 0.0f, 0.0f));
 
             //拷贝源纹理到目标渲染纹理，加上我们的材质效果
@@ -106,11 +101,10 @@ public class MotionBlurEffects : MonoBehaviour
     void OnValidate()
     {
         //将编辑器中的值赋值回来，确保在编辑器中值的改变立刻让结果生效
-        ChangeValue5 = IterationNumber;
+        ChangeValue4 = IterationNumber;
         ChangeValue = Intensity;
         ChangeValue2 = OffsetX;
         ChangeValue3 = OffsetY;
-        ChangeValue4 = blurWidth;
 
     }
 
@@ -122,11 +116,10 @@ public class MotionBlurEffects : MonoBehaviour
         if (Application.isPlaying)
         {
             //赋值
-            IterationNumber = ChangeValue5;
+            IterationNumber = ChangeValue4;
             Intensity = ChangeValue;
             OffsetX = ChangeValue2;
             OffsetY = ChangeValue3;
-            blurWidth = ChangeValue4;
 
         }
 
