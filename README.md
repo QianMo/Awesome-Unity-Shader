@@ -54,7 +54,7 @@
 ![](http://img.blog.csdn.net/20141116205243876?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br> <br> <br> <br> 
 
-##Volume Volume 04 剔除、深度测试、Alpha测试以及基本雾效
+##Volume 04 剔除、深度测试、Alpha测试以及基本雾效
 <br>
 ###1.用剔除操作渲染对象背面
 ![](http://img.blog.csdn.net/20141214160445602?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -86,7 +86,7 @@
 <br> <br> <br> <br> <br> 
 
 
-##Volume Volume 05 Unity中Shader的三种形态对比&混合操作
+##Volume 05 Unity中Shader的三种形态对比&混合操作
 <br>
 ### 一：固定功能Shader示例
 ![](http://img.blog.csdn.net/20141221160256147?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -131,7 +131,7 @@
 ![](http://img.blog.csdn.net/20141221170358925?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br> <br> 
 
-### 6. 实现玻璃效果第三版
+### 6.实现玻璃效果第三版
 ![](http://img.blog.csdn.net/20141221170508079?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br>
 ![](http://img.blog.csdn.net/20141221170537798?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -139,7 +139,7 @@
 
 
 
-##Volume Volume 06 表面着色器(Surface Shader)的写法(一)
+##Volume 06 表面着色器(Surface Shader)的写法(一)
 <br>
 ### 1.最基本的Surface Shader
 ![](http://img.blog.csdn.net/20141228171735232?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -191,7 +191,7 @@
 <br> <br> <br> <br> <br> 
 
 
-##Volume Volume 07 表面着色器的写法(二)：自定义光照模式
+##Volume 07 表面着色器的写法(二)：自定义光照模式
 <br>
 ### 0.内置的漫反射光照
 ![](http://img.blog.csdn.net/20150111162256968?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
