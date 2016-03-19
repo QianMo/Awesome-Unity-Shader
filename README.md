@@ -2,7 +2,10 @@
 这是一个关于Unity3D Shader的Rep。目前主要是自己博客专栏《【浅墨Unity3D Shader编程】》中推出的一些Shader代码的收集。
 * Shader专栏地址：[http://blog.csdn.net/column/details/unity3d-shader.html](http://blog.csdn.net/column/details/unity3d-shader.html)
 <br> 
+<br> 
 以下是各个Shader的图示。
+<br><br><br>
+
 
 ##Volume 1 凹凸纹理显示+自选边缘颜色和强度Shader
 <br>
