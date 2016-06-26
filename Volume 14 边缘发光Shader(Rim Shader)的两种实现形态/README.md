@@ -1,7 +1,4 @@
 
-#内容图示||Content schema
-
-
 ##Volume 14 two way to Write Rim Shader
 <br>
 ###1
