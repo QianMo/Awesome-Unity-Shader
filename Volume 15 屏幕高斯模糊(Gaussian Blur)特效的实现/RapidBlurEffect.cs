@@ -24,13 +24,13 @@ public class RapidBlurEffect : MonoBehaviour
     public static int ChangeValue3;
 
     //降采样次数
-    [Range(0, 6), Tooltip("[降采样次数]  向下采样的次数。此值越大,则采样间隔越大,需要处理的像素点越少,运行速度越快。")]
+    [Range(0, 6), Tooltip("[降采样次数]向下采样的次数。此值越大,则采样间隔越大,需要处理的像素点越少,运行速度越快。")]
     public int DownSampleNum = 2;
     //模糊扩散度
     [Range(0.0f, 20.0f), Tooltip("[模糊扩散度]进行高斯模糊时，相邻像素点的间隔。此值越大相邻像素间隔越远，图像越模糊。但过大的值会导致失真。")]
     public float BlurSpreadSize = 3.0f;
     //迭代次数
-    [Range(0, 8), Tooltip("[迭代次数] 此值越大,则模糊操作的迭代次数越多，模糊效果越好，但消耗越大。")]
+    [Range(0, 8), Tooltip("[迭代次数]此值越大,则模糊操作的迭代次数越多，模糊效果越好，但消耗越大。")]
     public int BlurIterations = 3;
 
     #endregion
@@ -117,7 +117,6 @@ public class RapidBlurEffect : MonoBehaviour
                 //  清空renderBuffer
                 RenderTexture.ReleaseTemporary(renderBuffer);
                 // 将tempBuffer赋给renderBuffer，此时renderBuffer里面pass0和pass1的数据已经准备好
-
                  renderBuffer = tempBuffer;
 
                 // 【2.3】处理Shader的通道2，竖直方向模糊处理 || Pass2,for horizontal blur
@@ -160,8 +159,9 @@ public class RapidBlurEffect : MonoBehaviour
         ChangeValue3 = BlurIterations;
     }
 
-
-    // Update is called once per frame
+    //-----------------------------------------【Update()函数】--------------------------------------  
+    // 说明：此函数每帧都会被调用
+    //--------------------------------------------------------------------------------------------------------
     void Update()
     {
         //若程序在运行，进行赋值
