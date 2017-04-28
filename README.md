@@ -9,7 +9,7 @@
 
 ## Volume 1 凹凸纹理显示+自选边缘颜色和强度Shader
 <br>
-###0.TheFirstShader
+### 0.TheFirstShader
 ![](http://img.blog.csdn.net/20141103021350640?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br><br> <br><br>   
 
@@ -38,7 +38,7 @@
 
 ## Volume 03 子着色器、通道与标签的写法 & 纹理混合
 <br>
-###1. Alpha纹理混合
+### 1. Alpha纹理混合
 ![](http://img.blog.csdn.net/20141116204632861?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br> <br> 
 ### 2.纹理的Alpha通道与自发光相混合
@@ -139,7 +139,7 @@
 
 
 
-##Volume 06 表面着色器(Surface Shader)的写法(一)
+## Volume 06 表面着色器(Surface Shader)的写法(一)
 <br>
 ### 1.最基本的Surface Shader
 ![](http://img.blog.csdn.net/20141228171735232?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -191,7 +191,7 @@
 <br> <br> <br> <br> <br> 
 
 
-##Volume 07 表面着色器的写法(二)：自定义光照模式
+## Volume 07 表面着色器的写法(二)：自定义光照模式
 <br>
 ### 0.内置的漫反射光照
 ![](http://img.blog.csdn.net/20150111162256968?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcG9lbV9xaWFubW8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -263,7 +263,7 @@
 ![](http://img.blog.csdn.net/20151129135100965?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br> <br> <br> <br> 
 
-##Volume 12 可编程Shader初步 & 漫反射可编程Shader
+## Volume 12 可编程Shader初步 & 漫反射可编程Shader
 <br>
 ### 1.单色Shader
 ![](http://img.blog.csdn.net/20160306101527269?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -298,9 +298,9 @@
 
 
 
-##Volume 13 单色透明Shader & 标准镜面高光Shader
+## Volume 13 单色透明Shader & 标准镜面高光Shader
 <br>
-###1.单色透明Shader
+### 1.单色透明Shader
 ![](http://img.blog.csdn.net/20160306101527269?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br><br> <br> 
 
@@ -318,7 +318,7 @@
 
 ![](http://img.blog.csdn.net/20160313163627983?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br> <br>
-###4.镜面反射（Specular）Shader
+### 4.镜面反射（Specular）Shader
 ![](http://img.blog.csdn.net/20160313163741061?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <br> <br> <br> 
 
