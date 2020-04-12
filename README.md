@@ -1,7 +1,19 @@
 # Awesome-Unity-Shader
 这是一个关于Unity3D Shader的Rep。目前主要是自己博客专栏《【浅墨Unity3D Shader编程】》中推出的一些Shader代码的收集。
-* Shader专栏地址：[http://blog.csdn.net/column/details/unity3d-shader.html](http://blog.csdn.net/column/details/unity3d-shader.html)
+* Shader专栏地址：[https://blog.csdn.net/zhmxy555/category_9264739.html](https://blog.csdn.net/zhmxy555/category_9264739.html)
 <br> 
+
+## 推荐新的高品质Unity Shader项目 | Recommend New Awesome Unity Shader Library : XPL
+
+X-PostProcessing Libray，简称XPL，是针对Unity引擎的高品质开源后处理库，旨在提供业界主流的高品质后处理特效的完整解决方案。目前已完美支持Unity Post-processing Stack v2，后续也将提供对Unity引擎URP/LWRP/HDRP的兼容支持。
+
+X-PostProcessing Library (XPL) is a high quality post processing library for for Unity Post Processing Stack v2/LWRP/URP/HDRP
+
+![](https://raw.githubusercontent.com/QianMo/X-PostProcessing-Gallery/master/Media/XPL-Title-v2.jpg)
+**【详情可见 | The X-PostProcessing Libray Repo is here：[https://github.com/QianMo/X-PostProcessing-Library](https://blog.csdn.net/zhmxy555/category_9264739.html)】**
+
+
+
 <br> 
 以下是各个Shader的图示。
 <br><br>
