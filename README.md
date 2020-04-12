@@ -3,7 +3,7 @@
 * Shader专栏地址：[https://blog.csdn.net/zhmxy555/category_9264739.html](https://blog.csdn.net/zhmxy555/category_9264739.html)
 <br> 
 
-## 推荐新的高品质Unity Shader项目 | Recommend New Awesome Unity Shader Library : XPL
+## 推荐新的高品质Unity Shader项目 | Recommend New Awesome Unity Shader Library
 
 X-PostProcessing Libray，简称XPL，是针对Unity引擎的高品质开源后处理库，旨在提供业界主流的高品质后处理特效的完整解决方案。目前已完美支持Unity Post-processing Stack v2，后续也将提供对Unity引擎URP/LWRP/HDRP的兼容支持。
 
